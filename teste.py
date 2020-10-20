@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 #-*- coding: utf8-*-
+
 not_p = []
 e = []
 lim = 100
@@ -12,7 +13,7 @@ def primo(num):
                  t = False
                  break
          return t
- 
+
 for num in range(2, lim + 1):
    test = primo(num)
    if (test):
@@ -20,5 +21,5 @@ for num in range(2, lim + 1):
    else:
        not_p.append(num)
 
-print "Números primos: ", e
-print "Não são primos: ", not_p
+print "Números primos: ", e                                                                                                                                                           
+print "Não são primos: ", not_p 
